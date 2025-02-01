@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f7f7;
+  color: #101828;
+  border-bottom: 1px solid #f2f4f7;
+  padding: 24px 64px;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.navLink {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #101828;
+}
+
+.navLink:not(:last-child) {
+  margin-right: 32px;
+}
+
+.navLink:hover {
+  color: #475467;
+}
+
+.activeLink {
+  color: #d84343;
+}
+
+.container {
+  max-width: 1440px;
+  /* padding: 0 20px; */
+  margin: 0 auto;
+}

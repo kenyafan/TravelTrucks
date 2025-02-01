@@ -1,0 +1,48 @@
+.homeContainer {
+  padding: 260px 64px;
+  color: #475467;
+  background-image: url('/HeroImage/HeroImage@1x.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (min-resolution: 192dpi) {
+  .homeContainer {
+    background-image: url('/HeroImage/HeroImage@2x.webp');
+  }
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.66667;
+  color: #f7f7f7;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: #f7f7f7;
+  margin-bottom: 40px;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #fff;
+  border-radius: 200px;
+  padding: 16px 50px;
+  width: 173px;
+  height: 56px;
+  background: #d84343;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #e44848;
+}

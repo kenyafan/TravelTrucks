@@ -1,0 +1,110 @@
+.container {
+  padding: 48px 64px 80px 64px;
+}
+
+.detailsContainer {
+  margin-bottom: 60px;
+}
+
+.cardTitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: #101828;
+  margin-bottom: 8px;
+}
+
+.cardRatingWrapper {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.cardRating {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+.rating {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #101828;
+}
+.iconRating {
+  margin-right: 4px;
+  fill: gold;
+  stroke: gold;
+}
+.cardLocationWrapper {
+  display: flex;
+  align-items: center;
+}
+.iconMap {
+  margin-right: 4px;
+}
+.cardLocation {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #101828;
+}
+
+.cardPrice {
+  display: block;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: #101828;
+  margin-bottom: 28px;
+}
+.galleryContainer {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.galleryImage {
+  border-radius: 10px;
+  width: 292px;
+  height: 312px;
+}
+
+.cardDescription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #475467;
+}
+
+.componentWrapper {
+  display: flex;
+}
+
+.buttonGroup {
+  border-bottom: 2px solid #dadde1;
+  margin-bottom: 44px;
+}
+.buttonFeatures,
+.buttonReviews {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #101828;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  margin-right: 40px;
+  margin-bottom: 24px;
+}
+.buttonReviews {
+  margin-right: 0;
+}
+
+.componentWrapper {
+  display: flex;
+  gap: 40px;
+}

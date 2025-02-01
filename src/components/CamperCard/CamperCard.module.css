@@ -1,0 +1,133 @@
+.card {
+  display: flex;
+  border: 1px solid #dadde1;
+  border-radius: 20px;
+  padding: 24px;
+  width: 888px;
+  height: 368px;
+  margin-bottom: 32px;
+}
+.cardContent {
+  width: 524px;
+}
+.cardImage {
+  margin-right: 24px;
+  border-radius: 10px;
+  width: 292px;
+  height: 320px;
+}
+.cardHeader {
+  display: flex;
+
+  align-items: center;
+}
+.cardRatingWrapper {
+  display: flex;
+  margin-bottom: 24px;
+}
+.cardPrice {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: #101828;
+  margin-right: 13px;
+}
+.cardRating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #101828;
+  margin-right: 16px;
+}
+.iconRating {
+  fill: gold;
+  stroke: gold;
+  margin-right: 4px;
+}
+.favoriteButton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.favoriteIcon {
+  fill: rgb(0, 0, 0);
+  stroke: rgb(0, 0, 0);
+  transition: fill 0.3s ease-in-out;
+}
+
+.favoriteIcon.filled {
+  fill: red;
+  stroke: red;
+}
+
+.cardLocationWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4px;
+}
+.cardHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.cardTitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  color: #101828;
+  margin-right: auto;
+}
+
+.cardLocation {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #101828;
+}
+
+.cardDescription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #475467;
+  margin-bottom: 24px;
+}
+.cardFeatures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+  max-width: 391px;
+}
+.feature {
+  border-radius: 100px;
+  padding: 12px 5px 12px 16px;
+  width: 123px;
+  height: 48px;
+  background: #f2f4f7;
+  max-width: 143px;
+}
+
+.button {
+  border-radius: 200px;
+  padding: 16px 40px;
+  width: 166px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #fff;
+  background: #e44848;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #d84343;
+}

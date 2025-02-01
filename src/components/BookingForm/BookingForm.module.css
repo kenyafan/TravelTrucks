@@ -1,0 +1,89 @@
+.bookingWrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dadde1;
+  padding: 44px 57px;
+  width: 641px;
+  height: 588px;
+}
+.bookingHeader {
+  margin-bottom: 24px;
+}
+.title {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #101828;
+}
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #6c717b;
+}
+
+.bookingForm {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.input {
+  border-radius: 12px;
+  padding: 18px 30px 18px 18px;
+  width: 527px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #101828;
+  background: #f7f7f7;
+  outline: none;
+  border: none;
+}
+.input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #6c717b;
+}
+.textarea {
+  border-radius: 10px;
+  padding: 18px 308px 76px 18px;
+  width: 527px;
+  height: 118px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #101828;
+  background: #f7f7f7;
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+.textarea::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #6c717b;
+}
+
+.button {
+  margin: 0 auto;
+  border-radius: 200px;
+  padding: 16px 60px;
+  width: 166px;
+  height: 56px;
+  background: #e44848;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background: #d84343;
+}

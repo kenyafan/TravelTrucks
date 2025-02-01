@@ -1,0 +1,189 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  width: 488px;
+  padding: 48px 64px 48px 64px;
+  background: #ffffff;
+}
+.filterTitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #475467;
+  margin-bottom: 32px;
+}
+
+.filterLine {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #d1d5db;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 2px;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #6c717b;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #101828;
+}
+
+.labelLocation {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #6c717b;
+  margin-bottom: 8px;
+}
+
+.input,
+.select {
+  border-radius: 12px;
+  background: #f7f7f7;
+  border: none;
+  outline: none;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #101828;
+  padding-left: 30px;
+  border-radius: 12px;
+  padding: 18px 218px 18px 48px;
+  width: 360px;
+  height: 56px;
+}
+
+.icon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  background: #d84343;
+  border: none;
+  cursor: pointer;
+  border-radius: 200px;
+  padding: 16px 60px;
+  width: 166px;
+  height: 56px;
+  margin-top: 40px;
+}
+
+.button:hover {
+  background: #e44848;
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.featureItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 112px;
+  min-height: 96px;
+}
+
+.featureItem:hover {
+  background-color: #f3f4f6;
+}
+
+.featureIcon {
+  flex-shrink: 0;
+}
+
+.featureText {
+  font-size: 15px;
+  color: #101828;
+  flex-grow: 1;
+}
+
+.activeFeature {
+  background-color: #d84343;
+  color: white;
+  border-color: #d84343;
+}
+
+.vehicleGroup {
+  display: flex;
+  gap: 12px;
+}
+
+.vehicleItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 112px;
+  min-height: 96px;
+}
+
+.vehicleItem:hover {
+  background-color: #f3f4f6;
+}
+
+.vehicleIcon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.vehicleText {
+  font-size: 16px;
+  color: #101828;
+}
+
+.activeVehicle {
+  background-color: #d84343;
+  color: white;
+  border-color: #d84343;
+}
