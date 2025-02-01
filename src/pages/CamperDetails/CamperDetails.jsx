@@ -84,13 +84,13 @@ const CamperDetails = () => {
         <div className={styles.buttonGroup}>
           <button
             onClick={() => setShowFirst(true)}
-            className={styles.buttonFeatures}
+            className={`${styles.buttonFeatures} ${showFirst ? styles.active : ''}`}
           >
             Features
           </button>
           <button
             onClick={() => setShowFirst(false)}
-            className={styles.buttonReviews}
+            className={`${styles.buttonReviews} ${!showFirst ? styles.active : ''}`}
           >
             Reviews
           </button>
